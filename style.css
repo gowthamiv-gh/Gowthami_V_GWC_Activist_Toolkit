@@ -5,19 +5,144 @@
 }
 
 body {
- background-color: lightcyan; 
+ background-color: #a0c4ff;
+}
+
+main {
+ /* text-align: center; */
+ margin-top: 2%;
+ margin-bottom: 2%;
+ margin-right: 20%;
+ margin-left: 20%;
 }
 
 /* STYLE TEXT */
 
 h1 {
-  color: navy;
+  text-align: center;
+  font-family: 'Lucida Handwriting', cursive;
+  color: #054060;
+}
+
+h2 {
+   text-align: center;
+   font-family: 'Lucida Handwriting', cursive;
+   color: #054060;
+}
+
+h4 {
+   padding-left: 1em;
+   text-align: center;
+   font-family: 'Monaco', monospace;
+   color: #054060;
+}
+
+p {
+   /* padding-left: 15em;
+   padding-right: 15em; */
+   text-align: align;
+   font-family: 'Lucida Console', monospace;
+   color: #054d75;
 }
 
 /* STYLE IMAGES */
 
+/* .outer {
+   display: flex;
+   justify-content: center;
+} 
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 60%;
+  border: 3px solid #blue;
+  margin-bottom: 2em;
+} */
+
+.outer {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+}
+
+.inner {
+   flex-basis: 100%;
+   margin: 1%
+}
+
+img {
+   width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+   .outer{
+      flex-wrap: wrap;
+   }
+}
+
 /* STYLE NAV BAR */
 
+ul {
+  list-style: none;
+  background-color: #061a40;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  foot-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #b9d6f2;
+}
+
 /* STYLE BUTTONS */
+.buttons {
+   background-color: crimson;
+  padding: 0.5em;
+   margin-top: 1.25em;
+   margin-bottom: 1.25em;
+}
 
 /* ADD MORE! */
+
+#centerThis {
+   text-align: center;
+   color: #054060;
+}
+
+#contact {
+   text-align: center;
+}
+
+.genFact {
+   background: lightyellow;
+   border-radius: 10px;
+   border-style: none;
+
+   padding: 15px;
+
+   text-align: center;
+}
+
+#fact{
+
+   background: red;
+
+   margin: 2px;
+   margin-top: 1%;
+   
+   border-style: none;
+
+   padding: 15px;
+   text-align: center;
+}
