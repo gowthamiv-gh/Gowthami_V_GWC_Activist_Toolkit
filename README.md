@@ -1,6 +1,6 @@
    This project is about creating a multi-page website for social good.
    Specifically, it talks about the importance of exercising regularly and staying fit.
-   There are 3 pages - Home, Take Action and About.
+   The website contains 3 pages - Home, Take Action and About.
     
    This project was created as part of a virtual, self-paced learning program with a coding club.
     
